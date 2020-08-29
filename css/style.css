@@ -1,0 +1,158 @@
+/*animation */
+
+
+/* MainComponent */
+body{
+    margin:0;
+    
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+/*utility*/
+
+.hidden{
+    display: none;
+}
+
+/*class*/
+.Section{
+}
+/*Home*/
+.Home{
+    width: 100%;
+}
+.HomePanelLeft{
+    background-color:#07031a;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+.HomePanelLeftTop{
+    height: 50%;
+}
+.HomeSpace{
+    height: 10em;
+}
+.HomeHi{
+    font-size:500%;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.HomeHiPanel{
+    width: 8em;
+    height: 8em;
+    color:#fbd46d;
+    background-color: #f4f6ff;
+    display: table;
+    text-align: center;
+}
+.HomeText{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f4f6ff;
+}
+.HomeHightlight1{
+    background-color: #fbd46d;
+    color:#07031a;
+}
+.HomePanelLeftBottom{
+    height: 50%;
+    text-align: center;
+}
+.HomePanelRight{
+    display: inline-block;
+    float:right;
+    overflow: hidden;
+    width: 50%;
+    height:100vh;
+}
+.HomeImage{
+    width: 100%;
+}
+/*Education */
+.About{
+    width: 100%;
+    height: 100vh;
+    background-color:#f4f6ff;
+}
+.AboutLeft{
+    display: inline-block;
+    width: 75%;
+    height: 100vh;
+    position: relative;
+}
+.AboutBox{
+    width: 80%;
+    height: 80%;
+    background-color:#07031a;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+
+}
+rect {
+    fill: #6e40aa;
+  }
+.SKTB{
+    font-size:50px;
+    color: #f4f6ff;
+    margin:0.3em;
+}
+.AboutTitle{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #f4f6ff;
+    font-size:20px;
+    margin-left: 10%;
+    margin-top:2em;
+}
+.AboutDesc{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #f4f6ff;
+    font-size:15px;
+    margin-left: 10%;
+}
+.AboutBoxText{
+    
+}
+
+
+.AboutRight{
+    display: inline-block;
+    float:right;
+    overflow:hidden;
+    width: 25%;
+    height: 100vh;
+    background-color: #fbd46d;
+}
+.AboutText{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size:100px;
+    color: #f4f6ff;
+    width: 5em;
+}
+.AboutText2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size:20px;
+    color: #f4f6ff;
+    margin:1em;
+    padding:3px;
+    position: relative;
+    background-color:#fbd46d;
+    box-shadow: 0 4px 8px 0 #fbd46, 0 6px 20px 0 #fbd46;
+    transition: background-color 1s,box-shadow 1s;
+}
+.AboutText2:hover{
+    background-color:#07031a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.Y2015{
+    top:-150px;
+}
